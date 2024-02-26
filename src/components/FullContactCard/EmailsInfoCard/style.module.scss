@@ -1,0 +1,93 @@
+.infoDiv{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    width: 80%;
+    gap: 10px;
+
+    p{
+        background-color: var(--primary-background-color);
+        color: var(--primary-font-color);
+        border-radius: 6px;
+        height: 3.125rem;
+        width: 100%;
+        padding: 16px;
+
+        font-family: var(--font-primary);
+        font-size: 1rem;
+
+        position: relative;
+
+        overflow-x: auto;
+        overflow-y: hidden;
+        gap: 16px;
+
+        &:hover{
+            border: 1px solid var(--secondary-color-blue);
+            border-radius: 6px;
+        }
+
+        button{
+            position: absolute;
+            top: 30%;
+            right: 3%;
+            background-color: var(--terciary-background-color);
+            border-radius: 8px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 1px;
+        }
+    }
+
+    form{
+        background-color: var(--primary-background-color);
+        color: var(--primary-font-color);
+        border-radius: 6px;
+        height: 3.125rem;
+        width: 100%;
+        position: relative;
+        font-family: var(--font-primary);
+        font-size: 1rem;
+        margin-bottom: .5rem;
+
+    div{
+        position: relative;
+        background-color: var(--primary-background-color);
+        border-radius: 6px;
+        height: 3.125rem;
+        width: 100%;
+        gap: 10px;
+        input{
+            font-family: var(--font-primary);
+            color: var(--primary-font-color);
+            font-size: 1rem;
+            height: 100%;
+            padding: 16px;
+            width: 100%;
+            overflow-x: auto;
+
+            &:hover, &:focus{
+                border: 1px solid var(--secondary-color-blue);
+                border-radius: 6px;
+            }
+        }
+        button{
+            position: absolute;
+            top: 30%;
+            right: 3%;
+            background-color: var(--terciary-background-color);
+            border-radius: 8px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 1px;
+            img{
+                height: 24px;
+                width: 24px;
+            }
+        }
+    }
+    }
+}

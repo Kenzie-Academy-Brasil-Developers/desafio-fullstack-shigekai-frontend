@@ -1,0 +1,31 @@
+:root{
+    --font-primary: "Inter", sans-serif;
+    --primary-color-blue: #01CDFE;
+    --secondary-color-blue: #30F2DF;
+    --terciary-color-blue: #0339A6;
+    
+    --primary-color-pink: #D90BCB;
+    --secondary-color-pink: #D936A0;
+    --terciary-color-pink: #F2527D;
+    
+    --primary-background-color: #121214;
+    --secondary-background-color: #151740;
+    --terciary-background-color: #212529;
+
+    --primary-font-color: #F8F9FA;
+    --secondary-font-color: #868E96;
+
+    .light-mode{
+
+        --primary-background-color: #f5f5f5;
+        --secondary-background-color: rgb(217, 227, 244);
+        --terciary-background-color: cornsilk;
+
+        --primary-font-color: #151515;
+        --secondary-font-color: #303035;
+    };
+};
+
+body{
+    background-color: var(--primary-background-color);
+}

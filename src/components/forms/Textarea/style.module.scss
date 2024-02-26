@@ -1,0 +1,38 @@
+.textareaDiv {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    width: 80%;
+    gap: 10px;
+    
+    textarea {
+        background-color: var(--primary-background-color);
+        color: var(--primary-font-color);
+
+        border-radius: 6px;
+        height: 6rem;
+        width: 100%;
+        resize: none;
+        width: 100%;
+        font-family: var(--font-primary);
+        font-size: 1rem;
+        color: var(--primary-font-color);
+        padding: 16px;
+       
+        &:focus{
+            border: 1px solid var(--secondary-color-blue);
+            border-radius: 6px;
+        }
+
+        &:hover{
+            border: 1px solid var(--secondary-color-blue);
+            border-radius: 6px;
+        }
+
+        &:disabled{
+            opacity: .5;
+        }
+    }
+
+}

@@ -1,0 +1,25 @@
+
+.wrap{
+    width: 100px;
+    height: 100px;
+    padding: 2px;
+    cursor: pointer;
+    transition: all 0.4s ease-out;
+    border-radius: 6px;
+    &:hover{
+        background: linear-gradient(to left, var(--secondary-color-blue), var(--primary-color-blue), var(--secondary-color-pink), var(--primary-color-pink));
+        transform: scale(1.1);
+    }
+}
+
+.card{
+    height: 100%;
+    width: 100%;
+
+    padding: 10px;
+
+    background-color: var(--primary-background-color);
+
+    border-radius: 6px;
+
+};

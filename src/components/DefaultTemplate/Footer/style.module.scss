@@ -1,0 +1,21 @@
+.footer {
+    position: fixed;
+    bottom: 0;
+    width: 100vw;
+
+    height: 8%;
+    background-color: var(--primary-background-color);
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.wrap{
+
+    position: fixed;
+    bottom: 2px;
+    width: 100vw;
+    height: 8%;
+    background: linear-gradient(to left, var(--secondary-color-blue), var(--primary-color-blue));
+}
